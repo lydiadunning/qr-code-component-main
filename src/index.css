@@ -1,0 +1,35 @@
+/* I had to add the font information to the parent element.
+   When I looked for a solution that would manage fonts at 
+   the component level, I only found dissapointed developers.
+   This is a potentially significant drawback to using lit. */
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+:root {
+  font-family: 'Outfit', sans-serif;
+
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+
+  width: 100vw;
+  height: 100vh;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    background-color: hsl(212, 45%, 89%);
+  }
+}
+
+.overlay {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  opacity: 30%;
+}
