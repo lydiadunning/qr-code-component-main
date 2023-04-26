@@ -37,8 +37,8 @@ export class QRCode extends LitElement {
         </div>
       </div>
       <div class="attribution">
-        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-        Coded by <a href="https://lydiadunning.github.io/Portfolio/">Lydia Dunning</a>.
+        <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. </p>
+        <p>Coded by <a href="https://lydiadunning.github.io/Portfolio/">Lydia Dunning</a>.</p>
       </div>
     `
   }
@@ -67,6 +67,7 @@ export class QRCode extends LitElement {
         width: 100%;
         display: grid;
         place-content: center;
+        text-align: center;
         --white: hsl(0, 0%, 100%);
         --light-gray: hsl(212, 45%, 89%);
         --grayish-blue: hsl(220, 15%, 55%);
@@ -76,6 +77,7 @@ export class QRCode extends LitElement {
 
       :root {
         font-size: 15px;
+        color: var(--dark-blue);
       }
 
       .app {
@@ -102,10 +104,10 @@ export class QRCode extends LitElement {
 
       h1 {
         font-size: 1.38rem;
-        color: var(--dark-blue);
         padding: 0;
         margin: 0;
         line-height: 1.3;
+        color: var(--dark-blue);
       }
 
       p {
@@ -114,6 +116,10 @@ export class QRCode extends LitElement {
         font-size: 1rem;
         color: var(--grayish-blue);
         letter-spacing: -0.015rem;
+      }
+
+      .attribution p {
+        color: var(--dark-blue);
       }
       
     `

@@ -16,7 +16,6 @@
 
 body {
   margin: 0;
-
   width: 100vw;
   height: 100vh;
 }
@@ -25,11 +24,4 @@ body {
   :root {
     background-color: hsl(212, 45%, 89%);
   }
-}
-
-.overlay {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  opacity: 30%;
 }
