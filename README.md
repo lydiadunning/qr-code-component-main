@@ -32,8 +32,7 @@ The challenge is to build out this QR code component and get it looking as close
 
 ### Built with
 
-- [React](https://reactjs.org/) - JS web interface library
-- [date-fns](https://date-fns.org/docs/) - JS date utility library
+- [Lit](https://lit.dev/) - simple library for building lightweight web components.
 - [vite](https://vitejs.dev) - frontend tooling to initialize apps, serve files for development, and package builds.
 
 ## Skills
