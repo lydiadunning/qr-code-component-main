@@ -87,9 +87,12 @@ Of course, there must be more config options which I don't know anything about. 
 
 ### Continued development
 
-I named this element and many things in it a variation of 'qr code', which certainly can't be good naming practices. Maybe I'll make a change eventually. The element itself should retain the name, with the image becoming something like 'qrCodeImage'. 
+I named this element and many things in it a variation of 'qr code', not great. Maybe I'll make a change eventually. The element itself should retain the name, with the image becoming something like 'qrCodeImage'. 
 
 I don't think I'll keep working with Lit, unless I have some compelling reason. I wish the class definitions were more abstract, which ultimately comes down to my preference for high level languages and building objects with factory functions. If I ever change my mind, I could use something similar to the factory pattern to create lit elements.
+
+After uploading this to Frontend Mentor, the site displays a warning that my html should have one main landmark. This seems irrelevant to what I'm doing here, because I'm using index.html like a plate to serve my element on, and the qr-card would fall within a landmark like main, header, or nav if it was part of a site. 
+I would agree that this element wouldn't be accessible, and a quick search didn't turn up much about practical methods for increasing the accessibility of Lit elements.
 
 ## Author
 
