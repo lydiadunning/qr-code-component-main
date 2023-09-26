@@ -74,7 +74,7 @@ Moving a site from the development environment to production can, in my experien
 However, it can be done!
 
 #### How 
-Since this site was built with Vite, I used the command prompt npm run build to create a project build. Easy. I followed Vite's instructions to upload the site to github pages, and it was blank. The build process relies on a config file that was missing from my project, so I had to make one, and it had to contain one setting to play nice with github pages. Here's what the config file says:
+Since this component was built with Vite, I used the command prompt npm run build to create a project build. Easy. I followed Vite's instructions to upload the site to github pages, and it was blank. The build process relies on a config file that was missing from my project, so I had to make one, and it had to contain one setting to play nice with github pages. Here's what the config file says:
 ```js
 // vite.config.js
 export default {
